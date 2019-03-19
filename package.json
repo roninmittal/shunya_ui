@@ -1,6 +1,7 @@
 {
   "name": "shunya_ui",
   "version": "0.1.0",
+  "homepage" : "http://roninmittal.github.io/shunya_ui",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
