@@ -1,9 +1,10 @@
 {
   "name": "shunya_ui",
   "version": "0.1.0",
-  "homepage" : "http://roninmittal.github.io/shunya_ui",
+  "homepage": "http://roninmittal.github.io/shunya_ui",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
     "react": "^16.8.4",
     "react-bootstrap": "^1.0.0-beta.5",
@@ -15,8 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "yarn run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
