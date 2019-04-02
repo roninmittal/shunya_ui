@@ -24,7 +24,7 @@ class App extends Component {
   componentDidMount() {
     axios({
       method: 'post',
-      url: "http://63.33.242.86/automl_webapi/getAPIDetails/",
+      url: "http://try.predictt.ai/automl_webapi/getAPIDetails/",
       headers: {
         'Access-Control-Allow-Origin': '*'
       },
@@ -43,7 +43,7 @@ class App extends Component {
 
     axios({
       method: 'post',
-      url: "http://63.33.242.86/automl_webapi/getADDetails/",
+      url: "http://try.predictt.ai/automl_webapi/getADDetails/",
       headers: {
         'Access-Control-Allow-Origin': '*'
       },
@@ -104,7 +104,10 @@ class App extends Component {
                             <Col className="col-auto">
                               <div className="h5 font-weight-normal text-white mb-2">Regression</div>
                               <div className="mb-0 d-flex">
-                                <div className="d-flex align-items-baseline mr-2 h4 font-weight-bold text-white">1/3 <span className="text-xs font-weight-normal ml-1">Used</span></div>
+                                <div className="d-flex align-items-baseline mr-2 h4 font-weight-bold text-white">
+                                  1/
+                                  <span className="h6">3</span>
+                                  <span className="text-xs font-weight-normal ml-1">Used</span></div>
                                 <div className="d-flex align-items-baseline font-weight-normal text-white">|</div>
                                 <div className="d-flex align-items-baseline ml-2 h4 font-weight-bold text-white">{this.state.regressionTotal} <span className="text-xs font-weight-normal ml-1">Total Model</span></div>
                               </div>
@@ -121,7 +124,7 @@ class App extends Component {
                             <Col className="col-auto">
                               <div className="h5 font-weight-normal text-white mb-2">Classification</div>
                               <div className="mb-0 d-flex">
-                                <div className="d-flex align-items-baseline mr-2 h4 font-weight-bold text-white">1/3 <span className="text-xs font-weight-normal ml-1">Used</span></div>
+                                <div className="d-flex align-items-baseline mr-2 h4 font-weight-bold text-white">1/<span className="h6">3</span> <span className="text-xs font-weight-normal ml-1">Used</span></div>
                                 <div className="d-flex align-items-baseline font-weight-normal text-white">|</div>
                                 <div className="d-flex align-items-baseline ml-2 h4 font-weight-bold text-white">{this.state.classificationTotal} <span className="text-xs font-weight-normal ml-1">Total Model</span></div>
                               </div>
@@ -138,7 +141,7 @@ class App extends Component {
                             <Col className="col-auto">
                               <div className="h5 font-weight-normal text-white mb-2">TimeSeries</div>
                               <div className="mb-0 d-flex">
-                                <div className="d-flex align-items-baseline mr-2 h4 font-weight-bold text-white">1/3 <span className="text-xs font-weight-normal ml-1">Used</span></div>
+                                <div className="d-flex align-items-baseline mr-2 h4 font-weight-bold text-white">1/<span className="h6">3</span> <span className="text-xs font-weight-normal ml-1">Used</span></div>
                                 <div className="d-flex align-items-baseline font-weight-normal text-white">|</div>
                                 <div className="d-flex align-items-baseline ml-2 h4 font-weight-bold text-white">{this.state.timeSeriesTotal} <span className="text-xs font-weight-normal ml-1">Total Model</span></div>
                               </div>
@@ -155,7 +158,7 @@ class App extends Component {
                             <Col className="col-auto">
                               <div className="h5 font-weight-normal text-white mb-2">Recommendation</div>
                               <div className="mb-0 d-flex">
-                                <div className="d-flex align-items-baseline mr-2 h4 font-weight-bold text-white">1/3 <span className="text-xs font-weight-normal ml-1">Used</span></div>
+                                <div className="d-flex align-items-baseline mr-2 h4 font-weight-bold text-white">1/<span className="h6">3</span> <span className="text-xs font-weight-normal ml-1">Used</span></div>
                                 <div className="d-flex align-items-baseline font-weight-normal text-white">|</div>
                                 <div className="d-flex align-items-baseline ml-2 h4 font-weight-bold text-white">{this.state.recommendationTotal} <span className="text-xs font-weight-normal ml-1">Total Model</span></div>
                               </div>
