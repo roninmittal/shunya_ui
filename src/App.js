@@ -24,7 +24,7 @@ class App extends Component {
   componentDidMount() {
     axios({
       method: 'post',
-      url: "http://try.predictt.ai/automl_webapi/getAPIDetails/",
+      url: "https://try.predictt.ai/automl_webapi/getAPIDetails/",
       headers: {
         'Access-Control-Allow-Origin': '*'
       },
