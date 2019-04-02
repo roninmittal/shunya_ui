@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/shunya_ui/precache-manifest.17cb30ce9f4e6cf7ebbb554ac74355d1.js"
+  "/shunya_ui/precache-manifest.9574e7a4d4bc190a02b34b74cf93d6a1.js"
 );
 
 workbox.clientsClaim();

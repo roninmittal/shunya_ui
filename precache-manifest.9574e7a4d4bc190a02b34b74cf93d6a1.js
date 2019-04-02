@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/shunya_ui/static/media/fa-solid-900.46280631.woff2"
   },
   {
-    "revision": "77ef4d1474df36b1f03a",
+    "revision": "098806854308bb2583e5",
     "url": "/shunya_ui/static/css/main.2a76ef88.chunk.css"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/shunya_ui/static/media/fa-brands-400.4b115e11.woff2"
   },
   {
-    "revision": "77ef4d1474df36b1f03a",
-    "url": "/shunya_ui/static/js/main.d2400200.chunk.js"
+    "revision": "098806854308bb2583e5",
+    "url": "/shunya_ui/static/js/main.a44e8467.chunk.js"
   },
   {
     "revision": "b90365bccdabd68c6c03902b4b141f09",
@@ -68,12 +68,12 @@ self.__precacheManifest = [
     "url": "/shunya_ui/static/media/fa-regular-400.e7e957c8.svg"
   },
   {
-    "revision": "b5596f4d339f99e3d69bc41be78db962",
-    "url": "/shunya_ui/static/media/fa-solid-900.b5596f4d.eot"
-  },
-  {
     "revision": "b70cea0339374107969eb53e5b1f603f",
     "url": "/shunya_ui/static/media/fa-solid-900.b70cea03.ttf"
+  },
+  {
+    "revision": "b5596f4d339f99e3d69bc41be78db962",
+    "url": "/shunya_ui/static/media/fa-solid-900.b5596f4d.eot"
   },
   {
     "revision": "80533988ff5fecd5be26557d08ce8237",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/shunya_ui/static/css/2.f87d67d6.chunk.css"
   },
   {
-    "revision": "97f9b810c084d123a5bf71b5ca75a1d7",
+    "revision": "d9daceb7f96d70ac84593abf54c396aa",
     "url": "/shunya_ui/index.html"
   }
 ];
